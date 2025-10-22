@@ -1,0 +1,3 @@
+{
+  "intro": "A internacionalização (i18n) é o processo de conceber e desenvolver uma aplicação de software, um produto ou um conteúdo para torná-lo adaptável a vários idiomas, regiões e culturas, sem a necessidade de alterações de engenharia. É uma etapa fundamental que antecede a localização (l10n). Pense na i18n como a construção de uma estrutura flexível com espaços reservados para texto, datas e moedas, garantindo que a espinha dorsal técnica do seu produto esteja pronta para um público global. Ao implementar a i18n desde o início, as empresas podem reduzir custos significativamente, acelerar o tempo de lançamento para novos mercados e proporcionar uma experiência contínua e culturalmente relevante para utilizadores em todo o mundo."
+}

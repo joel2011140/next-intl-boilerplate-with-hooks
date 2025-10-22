@@ -4,14 +4,14 @@
 // and making your translations safer and easier to maintain.
 
 import { ExtractRecursiveKeys } from "./messages";
-import localeJson from "../en.json";
+import internalizionalizationJson from "../about-internationalization/en.json";
 import { useTranslations } from "next-intl";
 
 // Generate a type-safe union of all translation keys in the feed JSON
-export type TranslationKeyPath = ExtractRecursiveKeys<typeof localeJson>;
+export type TranslationKeyPath = ExtractRecursiveKeys<typeof internalizionalizationJson>;
 
 // Custom hook for type-safe translations
-export function useSimpleTranslation() {
+export function useInternationalizationsTranslations() {
   const translation = useTranslations();
 
   const translate = (

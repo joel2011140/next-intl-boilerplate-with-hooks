@@ -1,0 +1,1 @@
+export type TLocales  = "pt" | "en" | "fr" | "es" | "ja"

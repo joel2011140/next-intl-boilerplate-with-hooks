@@ -26,7 +26,7 @@ import { routing } from "./routing";
 
 // Load all translation messages for the given locale
 async function loadMessages(locale: string) {
-  const modules = ["about-internationalization", "about-next"];
+  const modules = ["about-internationalization", "about-next", "presentation"];
   const messages = {};
 
   for (const moduleName of modules) {

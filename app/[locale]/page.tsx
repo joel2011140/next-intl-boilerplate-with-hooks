@@ -1,13 +1,15 @@
 "use client"
 
-import { useSimpleTranslation } from "@/src/locales/hooks/use-simple-translation"
+import { AboutInternationalization } from "@/src/components/about-internationalization"
+import { AboutNext } from "@/src/components/about-next"
+import { SayHi } from "@/src/components/say-hi"
 
 export default function LocalePage() {
-  const { translate } = useSimpleTranslation()
-
   return (
-    <div className="w-full flex h-screen flex-col items-center justify-center">
-      <p>{translate("hello")}</p>
+    <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-4">
+      <AboutNext />
+      <AboutInternationalization />
+      <SayHi />
     </div>
   )
 }
